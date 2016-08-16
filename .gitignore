@@ -24,6 +24,5 @@ local.properties
 *.class
 
 # Generated files
-bin/
 gen/
 out/
