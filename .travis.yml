@@ -4,6 +4,13 @@ scala:
 jdk:
   - oraclejdk8
 
+addons:
+  apt:
+    packages: # https://github.com/JakeWharton/sdk-manager-plugin/issues/13#issuecomment-40357320
+    - libstdc++6:i386
+    - lib32z1
+    - expect
+
 script: sbt ++$TRAVIS_SCALA_VERSION clean coverage test android:package
 
 after_success:
