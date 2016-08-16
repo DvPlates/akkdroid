@@ -39,5 +39,8 @@ lazy val root = (project in file(".")).
       "-keep class akka.dispatch.UnboundedMailbox { *; }",
       "-keep class akka.actor.DefaultSupervisorStrategy { *; }",
       "-keep class akka.event.Logging$LogExt { *; }"
+    ),
+    proguardOptions in Android ++= Seq(
+      "-dontwarn scoverage.Invoker$"
     )
   )
