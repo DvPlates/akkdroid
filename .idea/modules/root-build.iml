@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="root-build" external.linked.project.path="$MODULE_DIR$/../../project" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" sbt.imports="sbt._, Keys._, dsl._, _root_.android.Plugin._, _root_.android.AndroidPlugin.autoImport._, _root_.android.AndroidGradlePlugin.autoImport._, _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.android.AndroidPlugin, _root_.android.AndroidGradlePlugin, _root_.scoverage.ScoverageSbtPlugin, $696c22c5981e852a1c8b.root" sbt.resolvers="https://repo1.maven.org/maven2/|maven|public, file:/C:/Program%20Files%20(x86)/Android/android-sdk/extras/google/m2repository/|maven|google libraries, file:/C:/Program%20Files%20(x86)/Android/android-sdk/extras/android/m2repository/|maven|android libraries, C:\Users\dave\.ivy2\cache|ivy|Local cache" type="SBT_MODULE" version="4">
+<module external.linked.project.id="root-build" external.linked.project.path="$MODULE_DIR$/../../project" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" sbt.imports="sbt._, Keys._, dsl._, _root_.android.Plugin._, _root_.android.AndroidPlugin.autoImport._, _root_.android.AndroidGradlePlugin.autoImport._, _root_.scoverage.ScoverageSbtPlugin.autoImport._, _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.android.AndroidPlugin, _root_.android.AndroidGradlePlugin, _root_.scoverage.ScoverageSbtPlugin, $73139c967b1ee2493276.root" sbt.resolvers="https://repo1.maven.org/maven2/|maven|public, file:/C:/Program%20Files%20(x86)/Android/android-sdk/extras/google/m2repository/|maven|google libraries, file:/C:/Program%20Files%20(x86)/Android/android-sdk/extras/android/m2repository/|maven|android libraries, C:\Users\dave\.ivy2\cache|ivy|Local cache" type="SBT_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/../../project/target/idea-classes" />
     <output-test url="file://$MODULE_DIR$/../../project/target/idea-test-classes" />
@@ -15,6 +15,7 @@
       <library name="SBT: sbt-and-plugins">
         <CLASSES>
           <root url="jar://$USER_HOME$/.ivy2/cache/scala_2.10/sbt_0.13/org.scala-android/sbt-android-gradle/jars/sbt-android-gradle-1.2.4.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.10/jars/scalac-scoverage-plugin_2.10-1.1.1.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/com.android.tools.build/gradle-api/jars/gradle-api-2.1.2.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.ow2.asm/asm-analysis/jars/asm-analysis-5.0.3.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/com.android.databinding/compilerCommon/jars/compilerCommon-2.1.2.jar!/" />
@@ -69,7 +70,6 @@
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.6/org.scala-sbt/sbt/0.13.12/command-0.13.12.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.commons/commons-compress/jars/commons-compress-1.8.1.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/com.android.tools.build/builder-model/jars/builder-model-2.1.2.jar!/" />
-          <root url="jar://$USER_HOME$/.ivy2/cache/scala_2.10/sbt_0.13/org.scoverage/sbt-scoverage/jars/sbt-scoverage-1.1.0.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.6/org.scala-sbt/sbt/0.13.12/persist-0.13.12.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.6/lib/jline.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/com.android.databinding/baseLibrary/jars/baseLibrary-2.1.2.jar!/" />
@@ -93,6 +93,7 @@
           <root url="jar://$USER_HOME$/.ivy2/cache/com.android.tools/sdk-common/jars/sdk-common-25.1.2.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.6/org.scala-sbt/sbt/0.13.12/io-0.13.12.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/com.googlecode.juniversalchardet/juniversalchardet/jars/juniversalchardet-1.0.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/scala_2.10/sbt_0.13/org.scoverage/sbt-scoverage/jars/sbt-scoverage-1.3.5.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.6/org.scala-sbt/sbt/0.13.12/serialization_2.10-0.1.2.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/com.android.tools.lint/lint/jars/lint-25.1.2.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.6/org.scala-sbt/sbt/0.13.12/compiler-integration-0.13.12.jar!/" />
@@ -102,7 +103,6 @@
           <root url="jar://$USER_HOME$/.ivy2/cache/com.android.tools/annotations/jars/annotations-25.1.2.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/com.android.tools.build/manifest-merger/jars/manifest-merger-25.1.2.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/com.github.julien-truffaut/monocle-macro_2.10/jars/monocle-macro_2.10-1.1.0.jar!/" />
-          <root url="jar://$USER_HOME$/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.10/jars/scalac-scoverage-plugin_2.10-1.1.0.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.6/org.scala-sbt/sbt/0.13.12/control-0.13.12.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.6/org.scala-sbt/sbt/0.13.12/json4s-ast_2.10-3.2.10.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.6/org.scala-sbt/sbt/0.13.12/logging-0.13.12.jar!/" />
@@ -138,6 +138,7 @@
         <JAVADOC />
         <SOURCES>
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/completion/srcs/completion-0.13.12-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/scala_2.10/sbt_0.13/org.scoverage/sbt-scoverage/srcs/sbt-scoverage-1.3.5-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/run/srcs/run-0.13.12-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/com.android.tools.jack/jack-api/srcs/jack-api-0.10.0-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/tracking/srcs/tracking-0.13.12-sources.jar!/" />
@@ -165,7 +166,6 @@
           <root url="jar://$USER_HOME$/.ivy2/cache/com.android.databinding/compilerCommon/srcs/compilerCommon-2.1.2-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/com.google.guava/guava/srcs/guava-17.0-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/command/srcs/command-0.13.12-sources.jar!/" />
-          <root url="jar://$USER_HOME$/.ivy2/cache/scala_2.10/sbt_0.13/org.scoverage/sbt-scoverage/srcs/sbt-scoverage-1.1.0-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/srcs/scala-xml_2.11-1.0.4-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/com.tunnelvisionlabs/antlr4-runtime/srcs/antlr4-runtime-4.5-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.4-sources.jar!/" />
@@ -250,10 +250,10 @@
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/api/srcs/api-0.13.12-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/com.android.tools/dvlib/srcs/dvlib-25.1.2-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/serialization_2.10/srcs/serialization_2.10-0.1.2-sources.jar!/" />
-          <root url="jar://$USER_HOME$/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.10/srcs/scalac-scoverage-plugin_2.10-1.1.0-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/test-interface/srcs/test-interface-1.0-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/com.android.tools/annotations/srcs/annotations-25.1.2-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/io/srcs/io-0.13.12-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.10/srcs/scalac-scoverage-plugin_2.10-1.1.1-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/com.android.tools/sdklib/srcs/sdklib-25.1.2-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.httpcomponents/httpmime/srcs/httpmime-4.1-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/launcher-interface/srcs/launcher-interface-1.0.0-M1-sources.jar!/" />
