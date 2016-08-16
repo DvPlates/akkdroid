@@ -15,9 +15,9 @@
       <parameters>
         <parameter value="-target:jvm-1.7" />
         <parameter value="-bootclasspath" />
-        <parameter value="C:\Users\dave\.android\sbt\sdk\platforms\android-19\android.jar" />
+        <parameter value="C:\Program Files (x86)\Android\android-sdk\platforms\android-19\android.jar" />
         <parameter value="-javabootclasspath" />
-        <parameter value="C:\Users\dave\.android\sbt\sdk\platforms\android-19\android.jar" />
+        <parameter value="C:\Program Files (x86)\Android\android-sdk\platforms\android-19\android.jar" />
       </parameters>
     </profile>
   </component>
