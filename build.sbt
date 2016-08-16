@@ -19,11 +19,10 @@ lazy val root = (project in file(".")).
     buildToolsVersion in Android := Some("19.1.0"),
     proguardScala in Android := true,
     proguardOptions in Android ++= Seq(
-      "-ignorewarnings",
       "-keep class scala.Dynamic",
       "-keepattributes InnerClasses"
     ),
-    proguardOptions in Android ++= Seq( // akka
+    proguardOptions in Android ++= Seq( // akka - copied from macroid
       "-dontwarn sun.misc.Unsafe",
       "-keep class akka.actor.Actor$class { *; }",
       "-keep class akka.actor.LightArrayRevolverScheduler { *; }",
