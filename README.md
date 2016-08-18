@@ -1,2 +1,2 @@
-[![Build Status](https://travis-ci.org/dvmlls/android-scala.svg?branch=master)](https://travis-ci.org/dvmlls/android-scala)
-[![Codecov](https://img.shields.io/codecov/c/github/dvmlls/android-scala.svg?maxAge=2592000)]()
+[![Build Status](https://travis-ci.org/dvmlls/akkdroid.svg?branch=master)](https://travis-ci.org/dvmlls/akkdroid)
+[![Codecov](https://img.shields.io/codecov/c/github/dvmlls/akkdroid.svg?maxAge=2592000)]()
